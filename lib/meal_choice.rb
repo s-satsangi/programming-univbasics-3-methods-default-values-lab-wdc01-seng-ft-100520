@@ -3,5 +3,6 @@
 
 def meal_choice (veg1, veg2, protein = "tofu")
   puts "What a nutritious meal!"
-  puts "A plate of #{protein} validates_with #{veg1} and #{veg2}."
+  meal_msg = "A plate of #{protein} validates_with #{veg1} and #{veg2}."
+  meal_msg
 end
